@@ -12,7 +12,7 @@ export function UiLayout({ children }: { children: ReactNode }) {
           <WalletMultiButton />
         </div>
       </nav>
-      <main>{children}</main>
+      <main className='p-2'>{children}</main>
     </div>
   );
 }
