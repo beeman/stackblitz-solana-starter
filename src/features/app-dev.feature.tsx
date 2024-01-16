@@ -1,4 +1,3 @@
-
 export function AppDevFeature() {
-    return <div>Dev</div>
-  } 
+  return <div>Dev</div>
+}

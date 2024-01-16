@@ -1,31 +1,17 @@
-import { SVGProps } from 'react';
+import { SVGProps } from 'react'
 
 export function UiLogo({
   height,
   width,
   ...props
 }: SVGProps<SVGSVGElement> & {
-  height?: number;
-  width?: number;
+  height?: number
+  width?: number
 }) {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width={width}
-      height={height}
-      viewBox="0 0 2048 512"
-      {...props}
-    >
+    <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} viewBox="0 0 2048 512" {...props}>
       <g fill="none" fillRule="evenodd">
-        <rect
-          id="Rectangle"
-          fill="#1C7ED6"
-          x="0"
-          y="0"
-          width="512"
-          height="512"
-          rx="64"
-        ></rect>
+        <rect id="Rectangle" fill="#1C7ED6" x="0" y="0" width="512" height="512" rx="64"></rect>
 
         <path
           fill="#FFF"
@@ -37,5 +23,5 @@ export function UiLogo({
         </g>
       </g>
     </svg>
-  );
+  )
 }

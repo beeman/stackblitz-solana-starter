@@ -1,7 +1,6 @@
-import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
-import { ReactNode } from 'react';
-import { UiLogo } from './ui-logo';
-
+import { WalletMultiButton } from '@solana/wallet-adapter-react-ui'
+import { ReactNode } from 'react'
+import { UiLogo } from './ui-logo'
 
 export function UiLayout({ children }: { children: ReactNode }) {
   return (
@@ -12,7 +11,7 @@ export function UiLayout({ children }: { children: ReactNode }) {
           <WalletMultiButton />
         </div>
       </nav>
-      <main className='p-2'>{children}</main>
+      <main className="p-2">{children}</main>
     </div>
-  );
+  )
 }
